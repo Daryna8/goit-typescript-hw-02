@@ -8,11 +8,11 @@
 */
 
 type User = {
-  name: string;
-  surname: string;
+  name?: string;
+  surname?: string;
   email: string;
   password: string;
-}
+};
 
 function createOrUpdateUser(initialValues: User) {
   // Оновлення користувача
